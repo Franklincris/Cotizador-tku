@@ -1,1 +1,34 @@
+ALGORITMO DEL PROCEDIMIENTO
+
+1. Definir precio base.
+2. Repetir mientras el usuario no escriba "Salir":
+
+   2.1 Solicitar nombre.
+   2.2 Si nombre es "Salir", terminar programa.
+
+   2.3 Solicitar edad.
+   2.4 Si edad < 18, mostrar mensaje y continuar.
+
+   2.5 Calcular recargo por edad del asegurado.
+
+   2.6 Preguntar si está casado.
+       Si está casado:
+           Solicitar edad del cónyuge.
+           Calcular recargo por edad del cónyuge.
+
+   2.7 Preguntar si tiene hijos.
+       Si tiene hijos:
+           Solicitar cantidad.
+           Aplicar 20% del precio base por cada hijo.
+
+   2.8 Solicitar cantidad de propiedades.
+       Aplicar 35% del precio base por cada propiedad.
+
+   2.9 Solicitar salario.
+       Aplicar 5% sobre el salario.
+
+   2.10 Sumar todos los recargos al precio base.
+   2.11 Mostrar resultado.
+
+3. Fin.
 
